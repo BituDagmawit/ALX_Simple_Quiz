@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Quiz container */
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Question text */
+#quiz-question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Radio inputs */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Labels for choices */
+label {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/* Submit button */
+#submit-answer {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-answer:hover {
+    background-color: #0056b3;
+}
+
+/* Feedback message */
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
